@@ -1,0 +1,190 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>udthedeveloper.netlify.app</title>
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2962FF;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2962FF;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+section {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-text {
+  text-align: center;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.signature-text {
+  font-family: cursive;
+  font-size: 2em;
+  color: black;
+  margin-right: 1rem;
+}
+
+.signature-lines {
+  width: 50px;
+  height: 50px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><line x1='0' y1='0' x2='50' y2='50' style='stroke:#2962FF;stroke-width:10'/></svg>");
+  background-size: cover;
+}
+
+.name {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #666666;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  color: #2962FF;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer button {
+  background-color: #2962FF;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header, nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    margin-top: 1rem;
+  }
+  section {
+    padding: 1rem;
+  }
+  .signature {
+    flex-direction: column;
+    align-items: center;
+  }
+  .signature-text {
+      margin-bottom: 1rem;
+  }
+}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <span>ud.</span>
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Work</a>
+    <a href="#">Apps</a>
+    <a href="#">ud.</a>
+  </nav>
+</header>
+<section>
+  <div class="resume-text">Have a look at my resume.</div>
+  <hr style="border: 1px solid #d3d3d3; margin: 20px 0;">
+  <div class="signature">
+    <span class="signature-text">ud.</span>
+    <div class="signature-lines"></div>
+    <span style="font-size: 1em; color: black;">dev</span>
+  </div>
+  <h1 class="name">I'm UDAYKUMAR DHOKIA.</h1>
+  <p class="description">Flutter Application Developer | UI Designer</p>
+  <p class="description">Feel free to explore my projects and get in touch if you'd like to collaborate or discuss opportunities.</p>
+  <a href="#" class="cta-button">Let's work together!</a>
+  <div class="social-icons">
+    <img src="linkedin.png" alt="LinkedIn">
+    <img src="instagram.png" alt="Instagram">
+    <img src="twitter.png" alt="Twitter">
+  </div>
+</section>
+<footer>
+  <button>Check Out</button>
+</footer>
+</body>
+</html>
+```

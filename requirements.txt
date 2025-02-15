@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-google-genai
+langchain_community
+crewai
+python-dotenv
+google-generativeai
+Pillow
