@@ -1,7 +1,6 @@
 # UI Code Agent
 
 ![Demo](demo_input.png)
-![Video](working_demo.mp4)
 
 ## Overview
 
